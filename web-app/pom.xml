@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>mb2g-mm-maven-fixme</artifactId>
+        <groupId>guru.springframework</groupId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>web-app</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>guru.springframework</groupId>
+            <artifactId>jpa-entities</artifactId>
+            <version>${project.build.directory}</version>
+        </dependency>
+        <dependency>
+            <groupId>guru.springframework</groupId>
+            <artifactId>web-api</artifactId>
+            <version>${project.build.directory}</version>
+        </dependency>
+        <dependency>
+            <groupId>guru.springframework</groupId>
+            <artifactId>converters</artifactId>
+            <version>${project.build.directory}}</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2019.08.15 a las 12:10:47 PM CEST 
+
+  -->
+      
+    <jaxb:bindings if-exists="true" scd="x-schema::">
+            
+        <jaxb:schemaBindings map="false">
+                  
+            <jaxb:package name="guru.springframework.domain"/>
+                
+        </jaxb:schemaBindings>
+            
+        <jaxb:bindings if-exists="true" scd="~UserCommand">
+                  
+            <jaxb:class ref="guru.springframework.domain.UserCommand"/>
+                
+        </jaxb:bindings>
+          
+    </jaxb:bindings>
+    
+</jaxb:bindings>

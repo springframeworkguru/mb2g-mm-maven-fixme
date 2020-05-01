@@ -140,3 +140,7 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+/converters/target/
+/web-api/target/
+/web-app/target/
+/jpa-entities/target/

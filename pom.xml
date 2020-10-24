@@ -32,6 +32,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>flatten-maven-plugin</artifactId>
+                <version>1.2.5</version>
                 <configuration>
                     <flattenMode>bom</flattenMode>
                 </configuration>
@@ -55,7 +56,9 @@
                 </executions>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.0.0-M3</version>
                 <executions>
                     <execution>
                         <id>enforce-env-requirements</id>
@@ -68,7 +71,7 @@
                                     <version>[11,)</version>
                                 </requireJavaVersion>
                                 <requireMavenVersion>
-                                    <version>[3.5,)</version>
+                                    <version>[3.6,)</version>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>
@@ -77,5 +80,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

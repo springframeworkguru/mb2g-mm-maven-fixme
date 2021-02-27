@@ -11,11 +11,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>web-app</module>
         <module>jpa-entities</module>
-        <module>from-intellij</module>
         <module>web-api</module>
         <module>converters</module>
+        <module>web-app</module>
     </modules>
 
     <properties>
@@ -32,9 +31,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>flatten-maven-plugin</artifactId>
-                <configuration>
-                    <flattenMode>bom</flattenMode>
-                </configuration>
+                <version>1.2.5</version>
                 <executions>
                     <!-- enable flattening -->
                     <execution>
@@ -68,7 +65,7 @@
                                     <version>[11,)</version>
                                 </requireJavaVersion>
                                 <requireMavenVersion>
-                                    <version>[3.5,)</version>
+                                    <version>[3.6,)</version>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>

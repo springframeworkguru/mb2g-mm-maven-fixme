@@ -7,7 +7,7 @@
     <parent>
         <groupId>guru.springframework</groupId>
         <artifactId>mb2g-mm-maven-fixme</artifactId>
-
+        <version>${revision}</version>
     </parent>
 
     <artifactId>jpa-entities</artifactId>
@@ -18,12 +18,12 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.4.0.Final</version>
+            <version>5.6.4.Final</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.4</version>
+            <version>1.18.22</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

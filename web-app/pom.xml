@@ -11,22 +11,22 @@
     </parent>
 
     <artifactId>web-app</artifactId>
-
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>jpa-entities</artifactId>
-            <version>${project.build.directory}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>web-api</artifactId>
-            <version>${project.build.directory}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>converters</artifactId>
-            <version>${project.build.directory}}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

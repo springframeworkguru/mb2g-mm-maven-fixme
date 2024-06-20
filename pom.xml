@@ -11,11 +11,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>web-app</module>
         <module>jpa-entities</module>
-        <module>from-intellij</module>
         <module>web-api</module>
         <module>converters</module>
+        <module>web-app</module>
     </modules>
 
     <properties>

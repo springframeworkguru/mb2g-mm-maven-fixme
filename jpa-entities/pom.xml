@@ -7,7 +7,7 @@
     <parent>
         <groupId>guru.springframework</groupId>
         <artifactId>mb2g-mm-maven-fixme</artifactId>
-
+        <version>${revision}</version>
     </parent>
 
     <artifactId>jpa-entities</artifactId>

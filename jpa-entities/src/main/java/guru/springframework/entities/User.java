@@ -17,7 +17,6 @@ import javax.persistence.Id;
 @Data
 @Entity
 public class User {
-
     @Id
     private Long id;
 

@@ -13,6 +13,7 @@
 
     <xsd:complexType name="UserCommand">
         <xsd:sequence>
+            <xsd:element name="id" type="xsd:long"/>
             <xsd:element name="firstName" type="xsd:string"/>
             <xsd:element name="lastName" type="xsd:string"/>
             <xsd:element name="email" type="xsd:string"/>
